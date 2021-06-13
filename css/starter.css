@@ -8,7 +8,8 @@ body {
 	--theme-color: #4C6FFF; 
 	--theme-color1: #4C6FFF; 
 	--theme-color2: #19AAFC;
-	--theme-dark:#000A32;
+	/* --theme-dark:#000A32; */
+	--theme-dark:#21333b;
 
 	--text-dard: #212121;
 	--light-color:#888888;
