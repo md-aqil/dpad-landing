@@ -153,7 +153,9 @@
 	.mobile-menu {
 		display: block;
 	  }
-	
+	.art-spin {
+		top: 450px;
+	}
 	  #primary-menu.open-me {
 		transform: translateX(0%);
 	  }
@@ -341,17 +343,15 @@
 	height: 100%;
 }
 
-.fixed-right {
-	margin-left: 0;
-    width: 100%;
-  
-}
-.fixed-container.removefixed .fixed-left {
-    position: static;
-    height: 100%;
-}
-.flex-row {
-	margin:0;
+.pa-warpper {
+    position: absolute;
+    top: 0;
+    z-index: 1100;
+    right: 0;
+    left: 20px;
+    margin: auto;
+    width: 300px;
+    margin-top: -100px;
 }
 }
 

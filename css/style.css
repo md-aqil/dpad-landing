@@ -125,8 +125,12 @@ top: 239px;
     background-color: var(--theme-dark) !important;
 }
 .spacer {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.card {
+    position: relative;
+    z-index: 100;
 }
 .token-col {
     padding-right: 80px;
@@ -191,4 +195,21 @@ top: 239px;
 .btn-outline-primary {
     border-color: var(--theme-color);
     color: var(--theme-color);;
+}
+.art-spin {
+    position: absolute;
+    right: -100px;
+    width: 500px;
+    height: 500px;
+    bottom: 0;
+    opacity: .2;
+    z-index: 1;
+    
+}
+.add-part {
+    position: relative;
+}
+.add-part:before {
+    content: '';
+    background: url(./img/part.png);
 }
