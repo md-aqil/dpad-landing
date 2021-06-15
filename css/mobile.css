@@ -121,6 +121,9 @@
 .timeline {
 	width: 100%;
 }
+.light-right {
+	top: 200px;
+}
     .abs-overlay h1 {
         font-size: 30px;
         margin-bottom: 0;
