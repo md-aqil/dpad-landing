@@ -599,3 +599,13 @@ line-height: 1.5;
     border-top: 1px solid rgb(63 170 251 / 51%);
     padding-bottom: 60px;
 }
+.sticky-icon {
+   position: fixed;
+   right: 30px;
+   bottom: 20px;
+   z-index: 1;
+}
+.sticky-icon svg{
+    width: 60px;
+    fill: var(--theme-color);
+}
