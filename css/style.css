@@ -101,7 +101,7 @@ top: 0px;
     display: flex;
 }
 .type-support {
-    margin-right: 30px;
+    margin-right: 20px;
     color: var(--theme-color2);
 }
 .dropdown-menu {
@@ -270,6 +270,7 @@ top: 0px;
     letter-spacing: 4px;
     overflow: hidden;
     width: 100%;
+    z-index: 1000;
    
 }
 .glow-btn:hover{

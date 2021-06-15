@@ -108,6 +108,9 @@
     .tmc {
         justify-content: center !important;
     }
+	.m-center {
+		text-align: center;
+	}
 .tm-label {
 	position: static;
 }
