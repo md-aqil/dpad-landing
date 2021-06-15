@@ -545,3 +545,57 @@ line-height: 1.5;
 .timeline li p {
     margin: 0;
 }
+
+.footer-links li a {
+    text-decoration: none;
+    color: #dcdcdc;
+    display: block;
+    padding: 10px 0;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 300;
+}
+.footer-links {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-links h4 {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--theme-color2);
+}
+.site-footer p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #dcdcdc;
+}
+.social-icons {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.social-icons li a {
+    text-decoration: none;
+    display: block;
+}
+.social-icons li a {
+    width: 30px;
+  margin-right: 20px;
+}
+.social-icons li a svg {
+    fill:var(--theme-color2);
+}
+.theme-hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgb(63 170 251 / 51%);
+    padding-bottom: 60px;
+}
