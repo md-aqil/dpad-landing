@@ -9,6 +9,17 @@
 }
 /* mobile css START herer =====================================*/
 @media (max-width: 767px) {
+	.arch {
+		display: none;
+	}
+	.wbox {
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	.row-eq-height .col-md-3 {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
 	.visible-xs {
 		display: block;
 	}
