@@ -841,3 +841,11 @@ margin: 0;
 .por {
     position: relative !important;
 }
+.btn-f-box {
+    display: flex;
+    justify-content: center;
+}
+.btn-f-box .btn {
+    margin-left: 10px;
+    margin-right: 10px;
+}
