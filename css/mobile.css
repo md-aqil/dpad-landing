@@ -194,7 +194,18 @@
 		display: block;
 	  }
 	.art-spin {
-		top: 450px;
+		top: 500px;
+		width: 400px;
+		height: 400px;
+	}
+	.btn-f-box {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	
+	.btn-f-box .btn {
+		margin: 10px;
 	}
 	  #primary-menu.open-me {
 		transform: translateX(0%);
