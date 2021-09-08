@@ -6,6 +6,20 @@
     position: relative;
     /* overflow: hidden; */
 }
+.list-simple {
+    padding: 0;
+    list-style: none;
+}
+.next-particle {
+    display: none;
+}
+.bold {
+    font-weight: 700;
+}
+.metamaskmodal h4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .wave {
     position: absolute;
     width: 100%;

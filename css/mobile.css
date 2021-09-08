@@ -404,6 +404,21 @@
     width: 300px;
     margin-top: -100px;
 }
+
+.art-spin {
+    top: 600px !important;
+    width: 400px !important;
+    height: 400px !important;
+}
+.btn-f-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.btn-f-box .btn {
+    margin: 10px !important;
+}
 }
 
 /* mobile css END herer =====================================*/
