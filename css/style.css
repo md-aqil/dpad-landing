@@ -10,6 +10,10 @@
     padding: 0;
     list-style: none;
 }
+.list-simple li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 .next-particle {
     display: none;
 }
