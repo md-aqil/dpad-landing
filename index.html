@@ -24,9 +24,10 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
          
           <ul class="navbar-nav mr-auto">
+            
             <li class="nav-item dropdown">
         
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                     <img src="./img/menu-icon.svg" style="width: 28px;" alt="">
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -95,11 +96,14 @@
      <img class="light-right" src="./img/right-light.svg" style="opacity: .3;" alt="">
     </div>
     
-    <div class="bg-dark" style="position: relative; z-index: 1;">
-      <div class="video-box" >
-        <iframe style="margin-top: -80px;" src="https://www.youtube.com/embed/V5En3Ks3OjE?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen autopaly></iframe>
+      <div class="bg-dark" style="position: relative; z-index: 1;">
+        <div class="container">
+        <div class="video-box" >
+          <iframe style="margin-top: -80px;" src="https://www.youtube.com/embed/V5En3Ks3OjE?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen autopaly></iframe>
+        </div>
       </div>
     </div>
+   
     
     <div class="bg-dark add-part spacer " style="position: relative; overflow: hidden;">
     <div class="container">
@@ -237,7 +241,12 @@
                 </ul>
             </section>
     </div>
-    
+    <div class="bg-dark pt-5">
+    <div class="invite-btns m-0">
+      <button  class="btn btn-primary btn-lg mr-4">Whitepaper</button>
+      <button class="btn btn-outline-primary btn-lg">Onepager</button>
+    </div>
+  </div>
     <div class="bg-dark">
       <section class="container pt-5 pb-5" style="position: static;">
         <div class="spacer">
@@ -386,23 +395,7 @@
     </div>
    
   </div>
-  <div class="bg-dark por ">
-    <div class="container spacer ">
-      <div class="row copy-box spacer">
-        <div class="col-md-6 pl-5">
-            <input type="text"  class="form-control input-outline" value="0xc748673057861a797275cd8a068abb95a902e8de">
-        </div>
-        <div class="col-md-6 pl-0">
-          <div class="d-flex mt-0">
-            <button class="btn btn-outline-primary btn-lg mr-3">Copy Address</button>
-            <button class="btn btn-outline-primary btn-lg mr-3">Link</button>
-            <button class="btn btn-outline-primary btn-lg mr-3" data-toggle="modal" data-target="#qrcode">QR Code</button>
-           
-        </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  
   
   <div class="bg-dark por" style="overflow: hidden;">
     <img src="./img/square.svg" style="position: absolute;
@@ -485,19 +478,58 @@
   
   <div class="bg-dark por ">
     <div class="container spacer ">
-      <div class="row copy-box spacer">
-        <div class="col-md-5 pl-5">
+      <div class="copy-box">
+        <label for="" class="lead text-white mr-3">Dpad Token</label>
+        <div class="mr-3">
             <input type="text"  class="form-control input-outline" value="0xc748673057861a797275cd8a068abb95a902e8de">
         </div>
-        <div class="col-md-7 pl-0">
-          <div class="d-flex mt-0">
-            <button class="btn btn-outline-primary btn-lg mr-3">Copy Address</button>
-            <button class="btn btn-outline-primary btn-lg mr-3">Dpad Token</button>
-            <button class="btn btn-outline-primary btn-lg mr-3">Private Sell Contract</button>
-           
-        </div>
-        </div>
+        <div class="d-flex mt-0 svg-buttons">
+          <button class="btn btn-primary btn-lg mr-3" title="Copy"><img src="./img/copy.svg" alt="" ></button>
+          <button class="btn btn-primary btn-lg mr-3" title="link"><img src="./img/link.svg" alt=""></button>
+          <button class="btn btn-primary btn-lg mr-3" title="QR Code" data-toggle="modal" data-target="#qrcode"><img src="./img/qr.svg" alt=""></button>
+         
       </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="bg-dark por  ">
+    <div class="container pb-5">
+      <div class="copy-box">
+        <label for="" class="lead text-white mr-3">Private Sale Contract</label>
+        <div class="pr-3">
+         
+            <input type="text"  class="form-control input-outline" value="0xc748673057861a797275cd8a068abb95a902e8de">
+        </div>
+        <div class="d-flex mt-0 svg-buttons">
+          <button class="btn btn-outline-primary btn-lg mr-3" title="Copy"><img src="./img/copy.svg" alt="copy" ></button>
+          <button class="btn btn-outline-primary btn-lg mr-3">Dpad Token</button>
+          <button class="btn btn-outline-primary btn-lg mr-3">Private Sell Contract</button>
+         
+      </div>
+      </div>
+    
+    </div>
+  </div>
+  
+  <div class="bg-dark por ">
+    <div class="container spacer">
+      <div class="text-white text-center">
+        <h2 class="bold text-uppercase  mb-5 mt-md-3">As Featured in</h2>
+        <div class="social_icon_with_background_section_start social_icons_list border-0">
+          <ul class="list-unstyled mb-0 text-center">
+               <li class="fe-logo text-center d-inline-block">
+                  <img class="" style="padding: 30px;" src="./img/bloomberg.png" alt="">
+               </li>
+               <li class="fe-logo text-center d-inline-block">
+                <img class="p-0" src="./img/yahoo.png" alt="">
+             </li>
+             
+           </ul>
+         </div>
+         
+      </div>
+     
     </div>
   </div>
   
@@ -603,11 +635,16 @@
          </div>
          
       </div>
-     
+    
     </div>
+    <div class="text-center mt-5">
+      <a href="https://linktr.ee/dpad" class="btn btn-outline-primary btn-lg">Linktree</a>
+        
+      </div>
   </div>
   
     <footer class="site-footer bg-dark spacer" style="position: relative; overflow: hidden;">
+      
       <hr class="theme-hr">
       <img class="light-right" src="./img/right-light.svg" style="opacity: .3;" alt="">
       <div class="container">
@@ -921,7 +958,7 @@
     <script src="./js/controller.js"></script>
     <script src="./js/main.js"></script>
     <script>
-   
+ 
     </script>
 </body>
 </html>
