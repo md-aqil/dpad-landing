@@ -1,5 +1,57 @@
 
 
+var swiper = new Swiper('.swiper-loop', {
+	loop: true,
+	autoplay: {
+	  delay: 1,
+	},
+
+	freeMode: true,
+	speed: 5000,
+	slidesPerView: "auto",
+	spaceBetween: 50,
+	centeredSlides: true,
+	 
+  });
+
+  
+  $(".swiper-loop").hover(function () {
+	(this).swiper.autoplay.stop();
+  }, function () {
+	(this).swiper.autoplay.start();
+  });
+
+  var swiper = new Swiper('.swiper-fmail-founders', {
+	slidesPerView: 4,
+	spaceBetween: 20,
+	// centeredSlides: true,
+
+	navigation: {
+		nextEl: ".swiper-button-next",
+		prevEl: ".swiper-button-prev",
+	  },
+
+	 
+  });
+
+  var swiper = new Swiper('.swiper-quotes', {
+	slidesPerView: 3,
+	spaceBetween: 20,
+	centeredSlides: true,
+	freeMode: true,
+
+	navigation: {
+		nextEl: ".swiper-button-next",
+		prevEl: ".swiper-button-prev",
+	  },
+
+	 
+  });
+
+
+  
+
+  
   Splitting(); 
 
 ScrollOut({
