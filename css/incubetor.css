@@ -352,3 +352,119 @@ margin-bottom: 15px;
     color: #fff;
     font-weight: 300;
 }
+.show-on-mobile {
+    display: none;
+}
+
+.swiper-fmail-founders .swiper-button-next {
+    right: 11.3%;
+}
+.swiper-fmail-founders .swiper-button-prev {
+    left: 11.3%;
+}
+.swiper-quotes .swiper-button-next {
+    right: 11.3%;
+}
+.swiper-quotes .swiper-button-prev {
+    left: 11.3%;
+}
+
+
+
+/* mobile start from here----------------- */
+
+@media (max-width: 767px) {
+    .intro-title {
+        width: 100%;
+    }
+
+    .cr-light {
+       
+        width: 100%;
+    }
+
+    .inc-header1, .inc-header2, .inc-header3 {
+        font-size: 30px;
+        line-height: 1.2;
+        margin: 20px;
+       
+    }
+    .lead.text-white.mt-5 {
+        margin-top: 15px !important;
+        font-size: 18px;
+    }
+    .invite-btns {
+        flex-wrap: wrap;
+        margin-top: 30px !important;
+    }
+    .btn.mr-4 {
+        margin-right: 0 !important;
+        margin-bottom: 15px;
+    }
+    .ligth-objects img {
+       
+        width: 30%;
+    }
+    .cm-label {
+        font-size: 16px;
+    }
+    .lheading {
+        font-size: 25px !important;
+    }
+    .this-lpt {
+        font-size: 16px !important;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+    .show-on-mobile {
+        display: block;
+    }
+
+    .bn-contain,.price-meta, .top-tag {
+        text-align: center !important;
+    }
+    .swiper-loop .swiper-slide {
+        font-size: 30px !important;
+    }
+    .m-16 {
+        font-size: 16px !important;
+    }
+    .q-card {
+        width: 285px;
+        margin: auto;
+    }
+
+    .q-card h4 {
+        font-size: 25px;
+        line-height: 1.5;
+    }
+    .q-card p {
+        font-size: 18px;
+    }
+
+    .big-list li h4 {
+        font-weight: bold;
+        font-size: 25px;
+        color: #FFFFFF;
+    }
+    .big-list li p {
+        font-size: 16px;
+    }
+
+    .swiper-fmail-founders .swiper-button-next {
+        right: 15px;
+    }
+    .swiper-fmail-founders .swiper-button-prev {
+        left: 15px;
+    }
+    .swiper-quotes .swiper-button-next {
+        right: 15px;
+    }
+    .swiper-quotes .swiper-button-prev {
+        left: 15px;
+    }
+
+    
+}
+/* mobile END ----------------- */

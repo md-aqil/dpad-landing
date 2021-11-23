@@ -8,10 +8,12 @@ var swiper = new Swiper('.swiper-loop', {
 
 	freeMode: true,
 	speed: 5000,
-	slidesPerView: "auto",
+	slidesPerView: 'auto',
 	spaceBetween: 50,
 	centeredSlides: true,
-	 
+	
+
+
   });
 
   
@@ -21,18 +23,37 @@ var swiper = new Swiper('.swiper-loop', {
 	(this).swiper.autoplay.start();
   });
 
+
+
+
+
   var swiper = new Swiper('.swiper-fmail-founders', {
 	slidesPerView: 4,
 	spaceBetween: 20,
 	// centeredSlides: true,
-
-	navigation: {
+	loop: true,
+	 navigation: {
 		nextEl: ".swiper-button-next",
 		prevEl: ".swiper-button-prev",
 	  },
 
+	  breakpoints: {
+		1400: {
+			slidesPerView: 4,
+			spaceBetween: 50,
+		 },
+		 320: {
+			slidesPerView: 1,
+			spaceBetween: 10,
+		 },
+	   }
+
+
 	 
   });
+
+
+
 
   var swiper = new Swiper('.swiper-quotes', {
 	slidesPerView: 3,
@@ -45,6 +66,19 @@ var swiper = new Swiper('.swiper-loop', {
 		prevEl: ".swiper-button-prev",
 	  },
 
+	  breakpoints: {
+		1400: {
+			slidesPerView: 3,
+			spaceBetween: 20,
+			
+		 },
+		 
+		 320: {
+			slidesPerView: 1,
+			spaceBetween: 10,
+			centeredSlides: true,
+		 },
+	   }
 	 
   });
 
