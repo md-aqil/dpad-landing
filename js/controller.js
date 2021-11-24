@@ -30,18 +30,31 @@ var swiper = new Swiper('.swiper-loop', {
   var swiper = new Swiper('.swiper-fmail-founders', {
 	slidesPerView: 4,
 	spaceBetween: 20,
-	// centeredSlides: true,
+	centeredSlides: true,
 	loop: true,
+		// freeMode: true,
 	 navigation: {
 		nextEl: ".swiper-button-next",
 		prevEl: ".swiper-button-prev",
 	  },
+
+	  autoplay: {
+		delay: 2500,
+		disableOnInteraction: false,
+	  },
+
 
 	  breakpoints: {
 		1400: {
 			slidesPerView: 4,
 			spaceBetween: 50,
 		 },
+		 900: {
+			slidesPerView: 2,
+			spaceBetween: 10,
+			
+		 },
+
 		 320: {
 			slidesPerView: 1,
 			spaceBetween: 10,
@@ -59,7 +72,12 @@ var swiper = new Swiper('.swiper-loop', {
 	slidesPerView: 3,
 	spaceBetween: 20,
 	centeredSlides: true,
-	freeMode: true,
+	// freeMode: true,
+	loop: true,
+ autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
 
 	navigation: {
 		nextEl: ".swiper-button-next",
@@ -72,6 +90,13 @@ var swiper = new Swiper('.swiper-loop', {
 			spaceBetween: 20,
 			
 		 },
+
+		 900: {
+			slidesPerView: 2,
+			spaceBetween: 20,
+			
+		 },
+
 		 
 		 320: {
 			slidesPerView: 1,

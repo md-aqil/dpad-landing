@@ -199,9 +199,9 @@ text-transform: uppercase;
 color: #FFFFFF;
 text-shadow: 1.5px 1.5px 0px #00E5FF;
 }
-.swiper-fmail-founders .swiper-slide {
+/* .swiper-fmail-founders .swiper-slide {
    width: 270px !important;
-}
+} */
 .f-card {
     width: 270px;
     height: 370px;
@@ -209,6 +209,7 @@ text-shadow: 1.5px 1.5px 0px #00E5FF;
     overflow: hidden;
     position: relative;
     transition: all .2s ease-in;
+    margin: auto;
 }
 .f-card:hover {
     transform: translateY(-20px);
@@ -262,7 +263,7 @@ text-shadow: 1.5px 1.5px 0px #00E5FF;
 mix-blend-mode: normal;
 box-shadow: 5px 5px 0px rgba(0, 229, 255, 0.5);
 border-radius: 20px;
-width: 450px;
+width: 330px;
 height: 370px;
 padding: 30px;
 color: #fff;
@@ -271,6 +272,7 @@ display: flex;
     justify-content: space-between;
     
     transition: all .2s ease-in;
+    margin: auto;
 
 
 }
@@ -282,7 +284,7 @@ display: flex;
 }
 .q-card h4 {
     font-weight: 600;
-    font-size: 36px;
+    font-size: 28px;
     line-height: 44px;
     color: #FFFFFF;
     
@@ -356,7 +358,7 @@ margin-bottom: 15px;
     display: none;
 }
 
-.swiper-fmail-founders .swiper-button-next {
+/* .swiper-fmail-founders .swiper-button-next {
     right: 11.3%;
 }
 .swiper-fmail-founders .swiper-button-prev {
@@ -367,7 +369,7 @@ margin-bottom: 15px;
 }
 .swiper-quotes .swiper-button-prev {
     left: 11.3%;
-}
+} */
 
 
 
@@ -452,7 +454,7 @@ margin-bottom: 15px;
         font-size: 16px;
     }
 
-    .swiper-fmail-founders .swiper-button-next {
+    /* .swiper-fmail-founders .swiper-button-next {
         right: 15px;
     }
     .swiper-fmail-founders .swiper-button-prev {
@@ -463,8 +465,31 @@ margin-bottom: 15px;
     }
     .swiper-quotes .swiper-button-prev {
         left: 15px;
+    } */
+    .dball2 ,.circle-light2{
+        display: none;
+    }
+    #blog .col-md-4 {
+        margin-top: 15px;
     }
 
+    .swiper-fmail-founders .swiper-slide {
+        width: 100% !important;
+    }
     
 }
 /* mobile END ----------------- */
+@media (max-width: 1000px) {
+    .intro-title {
+        width: 100%;
+
+    }
+
+    .hero-sec {
+       
+        height: 120vh
+   
+    }
+
+
+}
