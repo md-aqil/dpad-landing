@@ -918,14 +918,14 @@ margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #fff;
+    border: 2px solid var(--theme-color2);
     transition: all .3s;
     margin: auto;
 }
 .social_icon_with_background_section_start .social_icons_list_icon a:hover {
     border-color: var(--theme-color2);
 }
-.social_icons_list_icon a:hover {
+.social_icons_list_icon a{
     background-color: transparent;
 }
 .video-box {

@@ -69,13 +69,13 @@ var swiper = new Swiper('.swiper-loop', {
 
 
   var swiper = new Swiper('.swiper-quotes', {
-	slidesPerView: 3,
+	slidesPerView: 4,
 	spaceBetween: 20,
 	centeredSlides: true,
 	// freeMode: true,
 	loop: true,
  autoplay: {
-          delay: 2500,
+        //   delay: 2500,
           disableOnInteraction: false,
         },
 
@@ -108,7 +108,47 @@ var swiper = new Swiper('.swiper-loop', {
   });
 
 
-  
+  var swiperTeam = new Swiper('.swiper-team', {
+	slidesPerView: 4,
+	spaceBetween: 30,
+	// centeredSlides: true,
+	// freeMode: true,
+	// loop: true,
+	watchSlidesProgress: true,
+	pagination: {
+		el: ".swiper-pagination",
+		clickable: true,
+	  },
+
+        // autoplay: {
+        //   delay: 2500,
+        //   disableOnInteraction: false,
+        // },
+
+	  breakpoints: {
+		1400: {
+			slidesPerView: 3,
+			spaceBetween: 30,
+			
+		 },
+
+		 900: {
+			slidesPerView: 2,
+			spaceBetween: 20,
+			
+		 },
+
+		 
+		 320: {
+			slidesPerView: 1,
+			spaceBetween: 10,
+			centeredSlides: true,
+		 },
+	   }
+	 
+  });
+
+
 
   
   Splitting(); 
