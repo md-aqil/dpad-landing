@@ -951,3 +951,29 @@ margin: 0;
     object-fit: contain;
     padding: 21px;
 }
+.pill-time {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    padding: 0;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.pill-time li {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    background: #19aafc36;
+    padding: 10px 20px;
+    margin: 8px;
+    border-radius: 3px;
+    border: 1px solid #19aafc;
+}
+.inflex {
+    display: flex;
+    margin-bottom: 20px;
+}
+.inflex p {
+    color: #fff;
+    margin: 0;
+}
