@@ -990,3 +990,20 @@ margin: 0;
 .btn-yt:hover span {
     color: #fff;
 }
+.speak-box {
+    /* background: var(--theme-color2); */
+    border: 1px solid #1da8fa;
+    border-radius: 3px;
+    position: relative;
+}
+.speak-box:after {
+    content: '';
+    border: 15px solid;
+    border-color: #ff000000 #00800000 #0000ff00 #1ba9fb;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 20px;
+    margin: auto;
+    right: -30px;
+}
