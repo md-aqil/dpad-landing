@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <meta property="og:title" content="dpad">
-<meta property="og:description" content="Dpad protocol is built to help new projects in launching and fundraise from the crypto investors community with decentralized process.">
-<meta property="og:image" content="og-graph.png">
-<meta property="og:url" content="og-graph.png">
-<link rel="icon" href="fav.png" type="image/png"/>
+    <meta property="og:description" content="Dpad protocol is built to help new projects in launching and fundraise from the crypto investors community with decentralized process.">
+    <meta property="og:image" content="og-graph.png">
+    <meta property="og:url" content="og-graph.png">
+    <link rel="icon" href="fav.png" type="image/png"/>
     <link rel="stylesheet" href="./css/swiper.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/starter.css">
@@ -94,8 +93,8 @@ display: flex;
 
 .t-card > img {
   --size: 200px;
-  width: var(--size);
-  height: var(--size);
+  width: var(--size) !important;
+  height: var(--size) !important;
   border-radius: 50%;
   object-fit: cover;
   margin: auto;
@@ -245,6 +244,10 @@ display: flex;
     padding-bottom: 5px;
     color: rgba(255, 255, 255, 0.70);
 }
+.navbar {
+  position: relative;
+  z-index: 1000;
+}
 
     </style>
 </head>
@@ -257,9 +260,10 @@ display: flex;
             
             <li class="nav-item dropdown">
         
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                <a class="nav-link navbar-ham" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                     <img src="./img/menu-icon.svg" style="width: 28px;" alt="">
                 </a>
+
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="#hero">Claim Airdrop</a>
                   <a class="dropdown-item" href="#buy">Buy DPAD Token</a>
@@ -983,7 +987,7 @@ display: flex;
                      I conspired this whole show
                   </p>
                   <ul class="list-inline ts-icons">
-                    <li><a href=""><img src="./img/facebook.svg" alt=""></a></li>
+                    <li><a href=""><img class="m-squre" src="./img/telegram.svg" alt=""></a></li>
                     <li><a href=""><img src="./img/twitter-squared-90.png" alt=""></a></li>
                     <li><a href=""><img src="./img/linkedin.svg" alt=""></a></li>
                   </ul>
@@ -1569,6 +1573,10 @@ display: flex;
     <script src="./js/controller.js"></script>
     <script src="./js/main.js"></script>
     <script>
+
+      $('.navbar-ham').click(function() {
+          $('.dropdown-menu').slideToggle()
+      });
       var swiper = new Swiper(".mySwiper", {
      navigation: {
        nextEl: ".swiper-button-next",
@@ -1584,6 +1592,8 @@ display: flex;
      grabCursor: true,
 
    });
+
+
  </script>
 </body>
 </html>
