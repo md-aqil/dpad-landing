@@ -135,6 +135,117 @@ display: flex;
   opacity: 1;
 }
 
+.mySwiper {
+        width: 100%;
+        height: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        overflow: hidden;
+      }
+
+      .swiper-slide {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+     
+      .swiper-button-next, .swiper-rtl .swiper-button-prev {
+          color: #19aafc;
+      }
+      .swiper-button-prev, .swiper-rtl .swiper-button-next {
+          color: #19aafc;
+      }
+       .mySwiper  .swiper-button-prev {
+
+       }
+       .navigation {
+        position: absolute;
+    /* bottom: -20px; */
+    display: flex;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100px;
+    --swiper-navigation-size: 24px;
+  
+       }
+       .tm-full-row {
+           position: relative;
+       }
+   
+ .quarter-wrapper .quarter-year {
+    border-left: 1px solid #19aafc;
+}
+ .quarter-wrapper .quarter-year {
+    padding: 20px 30px 0;
+    border-top: 1px solid #19aafc;
+    /* border-right: 1px solid #27de7f; */
+    margin-bottom: 30px;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    margin-left: -65px;
+    margin-right: -65px;
+}
+
+ .quarter-wrapper .quarter-year .year {
+    font-size: 50px;
+    color: #19aafc;
+    margin-bottom: 11px;
+    margin-left: 20px;
+    line-height: 1;
+ 
+}
+ .quarter-wrapper .quarter-detail {
+    border-radius: 40px;
+    border: 1px solid #19aafc;
+    padding: 30px;
+    box-shadow: 0 0 5px #19aafc, 0 0 25px #19a9fc38, 0 0 50px #19a9fc59, 0 0 80px #19a9fc2a;
+    color: #ffffffc7;
+    transition: all .3s;
+    width: 350px;
+}
+.quarter-text {
+    font-size: 50px;
+   color: #ffffffbd;;
+    margin-bottom: 20px;
+    font-weight: 300;
+    margin-left: -20px;
+  
+}
+.quarter-wrapper .quarter-detail:hover {
+    transform: translateY(-15px);
+    filter: drop-shadow( 0 0 5px #19a9fc48) drop-shadow( 0 0 25px #19a9fc62) drop-shadow(0 0 30px #19a9fc46) drop-shadow(0 0 20px #19a9fc5e);
+}
+.quarter-detail ul{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.quarter-detail ul li {
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgba(255, 255, 255, 0.70);
+}
+
     </style>
 </head>
 <body>
@@ -471,6 +582,9 @@ display: flex;
       </div>
     </div>
   </div>
+
+ 
+
   <div class="bg-dark">
     <div class="container spacer" id="tokenomics">
       <h1 class="text-center text-white text-bold">Powering the DPAD protocol</h1>
@@ -515,8 +629,154 @@ display: flex;
    
   </div>
   
-  
-  <div class="bg-dark por" style="overflow: hidden;">
+  <section class="bg-dark spacer">
+        
+    <h1 class="text-center text-white text-bold">ROAD MAP</h1>
+    <div class="tm-full-row">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+               
+                <div class="quarter-wrapper">
+                    <div class="quarter-text">Q4</div>
+                    <div class="quarter-year">
+                    <div class="year">2021</div>
+                     
+                    </div>
+                    <div class="quarter-detail">
+                        <ul>
+                            <li>Concept building</li>
+                            <li>Seed & Private sale</li>
+                            <li>DPAD IPs creation</li>
+                            <li>Beta software development</li>
+                        </ul>
+                    </div>
+                    </div>
+              </div>
+              <div class="swiper-slide">
+               
+                <div class="quarter-wrapper">
+                    <div class="quarter-text">Q1</div>
+                    <div class="quarter-year">
+                    <div class="year">2022</div>
+                    </div>
+                    <div class="quarter-detail">
+                        <ul>
+                           
+                            <li> Public Sale</li>
+                            <li>
+                                Launch of Beta version
+                            </li>
+                            <li>
+                                Partnerships & Collaborations
+                            </li>
+                            <li>
+                             Security Audits
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+              </div>
+            
+              <div class="swiper-slide">
+                <div class="quarter-wrapper">
+                <div class="quarter-text">Q2</div>
+                    <div class="quarter-year">
+                    <div class="year">2022</div>
+                    </div>
+                    <div class="quarter-detail">
+                        <ul>
+                            <li>Marketing campaigns</li>
+                            <li>Multichain Protocol</li>
+                            <li>Buying Metaverse Lands</li>
+                            <li>Crypto content creation</li>
+                        </ul>
+                    </div>
+                    </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="quarter-wrapper">
+                <div class="quarter-text">Q3</div>
+                    <div class="quarter-year">
+                    <div class="asterisk"></div>
+                    <div class="year">2022</div>
+                    </div>
+                    <div class="quarter-detail">
+                        <ul>
+                            <li>App launch</li>
+                            <li>
+                            Crypto Alumni Networking
+                            </li>
+                            <li>
+                                Transition to DAO
+                            </li>
+                            <li>
+                                Start building incubation for Metaverse
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="quarter-wrapper">
+                <div class="quarter-text">Q4</div>
+                    <div class="quarter-year">
+                    <div class="year">2022</div>
+                    </div>
+                    <div class="quarter-detail">
+                        <ul>
+                            <li>Revamp UI/UX</li>
+                            <li>
+                                Marketing of Incubation
+                            </li>
+                            <li>
+                            Hiring for Alpha version
+                            </li>
+                            <li>
+                                Global crypto founders meet
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="quarter-wrapper">
+                <div class="quarter-text">Q1</div>
+                    <div class="quarter-year">
+                    <div class="year">2023</div>
+                    </div>
+                    <div class="quarter-detail">
+                        <ul>
+                            <li>Launch of Dschool</li>
+                            <li>
+                                Alumni network expansion
+                            </li>
+                            <li>
+                                Collaboration with VR, AR projects
+                            </li>
+                            <li>
+                                Launch of Launchpad Alpha version
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+              </div>
+      
+        
+             
+            </div>
+           
+           
+          </div>
+          <div class="navigation">
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+      
+    </div>
+</section>
+  <div class="bg-dark por spacer" style="overflow: hidden;">
     <img src="./img/square.svg" style="position: absolute;
     left: -50px;
     bottom: 0; opacity: .5;" alt="">
@@ -1309,7 +1569,17 @@ display: flex;
     <script src="./js/controller.js"></script>
     <script src="./js/main.js"></script>
     <script>
- 
-    </script>
+      var swiper = new Swiper(".mySwiper", {
+     navigation: {
+       nextEl: ".swiper-button-next",
+       prevEl: ".swiper-button-prev",
+     },
+
+     slidesPerView: 3,
+     spaceBetween: 0,
+     grabCursor: true,
+
+   });
+ </script>
 </body>
 </html>
